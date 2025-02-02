@@ -1,0 +1,62 @@
+.homeMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    margin-left: 20%;
+    background-image: url('../../assets/mainBackgroundLight.png');
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(0.9);
+
+    h2 {
+        font-size: 2.4vw;
+        color: white;
+    }
+}
+
+.curriculo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.654);
+    border-radius: 2vw;
+
+    h3 {
+        font-size: 2vw;
+    }
+
+    article {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        height: 20vh;
+        background-color: white;
+        box-shadow: 0 0 1vw 1vw gray;
+        border-radius: 1.5vw;
+        
+        img {
+            width: 20%;
+            border-radius: 1.5vw 0 0 1.5vw;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 72.5%;
+            height: 100%;
+            h4 {
+                font-size: 1.5vw;
+            }
+            p {
+                font-size: 1vw;
+            }
+        }
+    }
+}
